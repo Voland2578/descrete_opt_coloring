@@ -1,6 +1,3 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-
 from __future__ import print_function
 
 import json
@@ -8,15 +5,6 @@ import time
 import os
 from collections import namedtuple
 
-
-# Python 2/3 compatibility
-# Python 2:
-try:
-    from urlparse import urlparse
-    from urllib import urlencode
-    from urllib2 import urlopen, Request, HTTPError
-except:
-    pass
 
 # Python 3:
 try:
